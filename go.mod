@@ -10,12 +10,13 @@ require (
 	github.com/flytam/filenamify v1.1.0
 	github.com/gcla/deep v1.0.2
 	github.com/gcla/gowid v1.4.1-0.20221101015339-ce29e21d2804
-	github.com/gcla/tail v1.0.1-0.20190505190527-650e90873359
+	github.com/gcla/tail v2.10.6-bug100770-inotify-leak+incompatible
 	github.com/gcla/term v0.0.0-20220601234708-3e6af2ebff27
 	github.com/gdamore/tcell/v2 v2.5.0
 	github.com/gin-gonic/gin v1.9.1 // indirect
 	github.com/go-test/deep v1.0.2 // indirect
 	github.com/hashicorp/golang-lru v0.5.4
+	github.com/howeyc/fsnotify v0.9.0 // indirect
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/mattn/go-isatty v0.0.19
@@ -35,5 +36,5 @@ require (
 	golang.org/x/sys v0.13.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/fsnotify/fsnotify.v1 v1.4.7
-	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
+	launchpad.net/tomb v0.0.0-20140529072043-000000000018 // indirect
 )
