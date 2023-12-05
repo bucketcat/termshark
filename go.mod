@@ -15,7 +15,7 @@ require (
 	github.com/gdamore/tcell/v2 v2.5.0
 	github.com/gin-gonic/gin v1.9.1 // indirect
 	github.com/go-test/deep v1.0.2 // indirect
-	github.com/hashicorp/golang-lru v0.5.4
+	github.com/hashicorp/golang-lru v1.0.2
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/mattn/go-isatty v0.0.19
