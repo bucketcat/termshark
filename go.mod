@@ -4,8 +4,7 @@ go 1.13
 
 require (
 	github.com/adam-hanna/arrayOperations v0.2.6
-	github.com/antchfx/xmlquery v1.3.3
-	github.com/antchfx/xpath v1.1.11 // indirect
+	github.com/antchfx/xmlquery v1.3.18
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/flytam/filenamify v1.1.0
 	github.com/gcla/deep v1.0.2
