@@ -1,3 +1,8 @@
+## Fork Specific
+Run 'Go mod tidy' after build as some wildcard inhereted dependencies were manually bumped  in-situ in go.mod.
+There is likely some desync in go.sum, which will be resolved on running 'Go mod tidy'.
+
+
 [twitter-follow-url]: https://twitter.com/intent/follow?screen_name=termshark
 [twitter-follow-img]: https://img.shields.io/twitter/follow/termshark.svg?style=social&label=Follow
 
