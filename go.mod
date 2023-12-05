@@ -22,7 +22,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mreiferson/go-snappystream v0.2.3
 	github.com/pkg/errors v0.9.1
-	github.com/psanford/wormhole-william v1.0.6-0.20210402190004-049df45b8d5a
+	github.com/psanford/wormhole-william v1.0.7
 	github.com/rakyll/statik v0.1.7
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
 	github.com/shibukawa/configdir v0.0.0-20170330084843-e180dbdc8da0
