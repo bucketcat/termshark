@@ -31,11 +31,9 @@ require (
 	github.com/stretchr/testify v1.8.3
 	github.com/tevino/abool v1.2.0
 	gitlab.com/jonas.jasas/condchan v0.0.0-20190210165812-36637ad2b5bc
-	golang.org/x/sys v0.8.0
+	golang.org/x/net v0.17.0 // indirect; https://github.com/gcla/termshark/issues/157
+	golang.org/x/sys v0.13.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/fsnotify/fsnotify.v1 v1.4.7
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
-	
-	golang.org/x/net v0.7.0 //https://github.com/gcla/termshark/issues/157  
-	golang.org/x/text v0.3.8 //https://github.com/gcla/termshark/issues/157 Run 'go mod tidy' after build to fix go.sum
 )
