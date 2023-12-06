@@ -54,4 +54,4 @@ jobs:
           prerelease: false
           files: |
             release.tar.gz
-          token: ${{ secrets.MY_TOKEN }}
+          github_token: ${{ secrets.MY_TOKEN }}
