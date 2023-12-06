@@ -1,8 +1,8 @@
 name: Go
 on:
-  push:
-    branches:
-      - master #STOP
+  workflow_dispatch:
+  #  branches:
+   #   - master #STOP
 
 jobs:
   build:
@@ -54,4 +54,4 @@ jobs:
           prerelease: false
           files: |
             release.tar.gz
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_TOKEN }}
