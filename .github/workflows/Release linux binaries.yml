@@ -46,12 +46,12 @@ jobs:
 
       - name: Create Release and Upload Artifacts
         uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
         with:
           tag_name: v0.0.1
           release_name: Release v0.0.1
           body: Test build and release binaries remotely.
           draft: false
           prerelease: false
-          files: |
-            release.tar.gz
-          github_token: ${{ secrets.MY_TOKEN }}
+          files: release.tar.gz
